@@ -1,0 +1,54 @@
+.user-data-wrapper {
+    height: 400px;
+    position: relative;
+}
+
+.user-data-top-sec {
+    background: #212333;
+}
+
+.user-data-top-sec h1 {
+    padding-top: 24px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.user-data-bottom-sec {
+    padding: 64px 24px 24px 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background: #ffffff;
+}
+.user-data-bottom-sec .user-info{
+    border-right: 1px solid rgb(202, 202, 202);
+    padding: 0 24px;
+}
+.user-data-bottom-sec .user-info h5{
+color: #545454;
+}
+.user-data-bottom-sec .user-info:nth-last-child(1){
+    border-right: none;
+    padding: 0 16px;
+}
+
+.user-img {
+    background: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 4px solid rgb(232, 232, 232);
+    overflow: hidden;
+}
+
+.user-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+

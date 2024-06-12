@@ -1,0 +1,10 @@
+.folder-icon {
+    font-size: 64px;
+    height: 64px !important;
+    display: flex;
+    justify-content: center;
+}
+
+.add-icon-wrapper {
+    width: fit-content;
+}

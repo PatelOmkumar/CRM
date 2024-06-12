@@ -1,0 +1,22 @@
+/* .usercontainer{
+    height: 85vh;
+    overflow-y: scroll;
+} */
+
+
+
+ /* .usercontainer {
+    height: 85vh;
+    overflow-y: scroll;
+    overflow-y: -webkit-scrollbar;
+}
+
+
+.usercontainer::-webkit-scrollbar {
+    width: 10px; 
+}
+
+
+.usercontainer::-webkit-scrollbar-thumb {
+    background-color: #cccccc; 
+} */

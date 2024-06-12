@@ -1,0 +1,31 @@
+.sidebar {
+    max-width: 48px;
+    min-width: 48px;
+    overflow: hidden;
+}
+
+.sidebar-sm {
+    max-width: 48px;
+    min-width: 48px;
+    transition: min-width 0.5s;
+    transition-timing-function: ease;
+    overflow: hidden;
+}
+
+.nav-bar {
+    height: 68px;
+}
+
+.content {
+    background: #e2e2ed;
+    height: calc(100vh - 68px);
+}
+
+@media (min-width: 576px) {
+    .sidebar {
+        width: 20% !important;
+        min-width: 205px !important;
+        max-width: 360px !important;
+        transition: 0.75s;
+    }
+}
